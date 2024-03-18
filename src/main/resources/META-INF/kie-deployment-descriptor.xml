@@ -8,14 +8,7 @@
     <marshalling-strategies/>
     <event-listeners/>
     <task-event-listeners/>
-    <globals>
-        <global>
-            <resolver>mvel</resolver>
-            <identifier>http://host.docker.internal:7165/credit-check</identifier>
-            <parameters/>
-            <name>CreditCheckApiCall</name>
-        </global>
-    </globals>
+    <globals/>
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
