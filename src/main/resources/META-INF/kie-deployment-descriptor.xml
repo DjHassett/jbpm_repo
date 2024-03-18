@@ -23,7 +23,14 @@
             <name>Rest</name>
         </work-item-handler>
     </work-item-handlers>
-    <environment-entries/>
+    <environment-entries>
+        <environment-entry>
+            <resolver>mvel</resolver>
+            <identifier>test</identifier>
+            <parameters/>
+            <name>CreditCheckApiCall</name>
+        </environment-entry>
+    </environment-entries>
     <configurations/>
     <required-roles/>
     <remoteable-classes/>
