@@ -8,7 +8,14 @@
     <marshalling-strategies/>
     <event-listeners/>
     <task-event-listeners/>
-    <globals/>
+    <globals>
+        <global>
+            <resolver>mvel</resolver>
+            <identifier>https://localhost:7165/credit-check</identifier>
+            <parameters/>
+            <name>CreditCheckApiCall</name>
+        </global>
+    </globals>
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
