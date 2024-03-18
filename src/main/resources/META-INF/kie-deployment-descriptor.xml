@@ -26,7 +26,7 @@
     <environment-entries>
         <environment-entry>
             <resolver>mvel</resolver>
-            <identifier>test</identifier>
+            <identifier>http://host.docker.internal:7165/credit-check</identifier>
             <parameters/>
             <name>CreditCheckApiCall</name>
         </environment-entry>
