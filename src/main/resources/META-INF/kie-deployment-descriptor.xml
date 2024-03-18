@@ -23,15 +23,15 @@
             <name>Rest</name>
         </work-item-handler>
     </work-item-handlers>
-    <environment-entries/>
-    <configurations>
-        <configuration>
+    <environment-entries>
+        <environment-entry>
             <resolver>mvel</resolver>
             <identifier>"http://host.docker.internal:5170/credit-check"</identifier>
             <parameters/>
             <name>CreditCheckApiCall</name>
-        </configuration>
-    </configurations>
+        </environment-entry>
+    </environment-entries>
+    <configurations/>
     <required-roles/>
     <remoteable-classes/>
     <limit-serialization-classes>true</limit-serialization-classes>
