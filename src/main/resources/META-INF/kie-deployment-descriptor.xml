@@ -11,7 +11,7 @@
     <globals>
         <global>
             <resolver>mvel</resolver>
-            <identifier>https://localhost:7165/credit-check</identifier>
+            <identifier>http://host.docker.internal:7165/credit-check</identifier>
             <parameters/>
             <name>CreditCheckApiCall</name>
         </global>
