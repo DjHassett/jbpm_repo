@@ -14,7 +14,7 @@
             <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler()</identifier>
             <parameters/>
-            <name>Credit Check</name>
+            <name>Rest</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
