@@ -19,8 +19,8 @@ public class Client implements java.io.Serializable {
 	public Client(String data) {
 	    this.firstName = data.get("firstName").toString();
 	    this.surname = data.get("surname").toString();
-	    this.age = (int)data.get("age");
-	    this.consented = (boolean)data.get("age");
+	    this.age = (java.lang.Integer)data.get("age");
+	    this.consented = (java.lang.Boolean)data.get("age");
 	}
 
 	public java.lang.Integer getAge() {
