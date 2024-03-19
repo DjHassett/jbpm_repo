@@ -15,6 +15,16 @@ public class Client implements java.io.Serializable {
 
 	public Client() {
 	}
+	
+	public Client(Map<String,Object> data) {
+	    System.out.println("Client Map Data :::::");
+	    System.out.println(data);
+	    
+	    this.firstName = data.get("firstName").toString();
+	    this.surname = data.get("surname").toString();
+	    this.age = (java.lang.Integer)data.get("age");
+	    this.consented = (java.lang.Boolean)data.get("consented");
+	}
 
 	public java.lang.Integer getAge() {
 		return this.age;
