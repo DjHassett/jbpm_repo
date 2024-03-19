@@ -17,39 +17,10 @@ public class Client implements java.io.Serializable {
 	}
 	
 	public Client(java.util.Map<String, Object> data) {
-	    System.out.println("Client Map Data :::::");
-	    System.out.println(data);
-	    System.out.println("Data firstName :::::");
-	    System.out.println(data.get("firstName"));
-	    System.out.println("Data surname :::::");
-	    System.out.println(data.get("surname"));
-	    System.out.println("Data age :::::");
-	    System.out.println(data.get("age"));
-	    System.out.println("Data consented :::::");
-	    System.out.println(data.get("consented"));
-	    
 	    this.firstName = data.get("firstName").toString();
 	    this.surname = data.get("surname").toString();
 	    this.age = (java.lang.Integer)data.get("age");
 	    this.consented = (java.lang.Boolean)data.get("consented");
-	    
-	    System.out.println("Client :::::");
-	    System.out.println(this);
-	    System.out.println("Client firstName :::::");
-	    System.out.println(this.firstName);
-	    System.out.println("Client surname :::::");
-	    System.out.println(this.surname);
-	    System.out.println("Client age :::::");
-	    System.out.println(this.age);
-	    System.out.println("Client consented :::::");
-	    System.out.println(this.consented);
-	}
-	
-	public void set(Client client) {
-	    this.firstName = client.getFirstName();
-	    this.surname = client.getSurname();
-	    this.age = client.getAge();
-	    this.consented = client.getConsented();
 	}
 
 	public java.lang.Integer getAge() {
