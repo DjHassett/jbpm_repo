@@ -44,6 +44,13 @@ public class Client implements java.io.Serializable {
 	    System.out.println("Client consented :::::");
 	    System.out.println(this.consented);
 	}
+	
+	public void set(Client client) {
+	    this.firstName = client.getFirstName();
+	    this.surname = client.getSurname();
+	    this.age = client.getAge();
+	    this.consented = client.getConsented();
+	}
 
 	public java.lang.Integer getAge() {
 		return this.age;
