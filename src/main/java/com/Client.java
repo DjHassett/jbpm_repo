@@ -16,7 +16,7 @@ public class Client implements java.io.Serializable {
 	public Client() {
 	}
 	
-	public Client(Map<String,Object> data) {
+	public Client(java.util.Map<String, Object> data) {
 	    System.out.println("Client Map Data :::::");
 	    System.out.println(data);
 	    
