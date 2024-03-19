@@ -30,6 +30,12 @@
             <parameters/>
             <name>CreditCheckApiCall</name>
         </environment-entry>
+        <environment-entry>
+            <resolver>mvel</resolver>
+            <identifier>"http://host.docker.internal:5128/CreateClients"</identifier>
+            <parameters/>
+            <name>CreateUserApiCall</name>
+        </environment-entry>
     </environment-entries>
     <configurations/>
     <required-roles/>
