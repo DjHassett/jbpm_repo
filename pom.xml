@@ -45,6 +45,11 @@
       <version>1.4.18</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.myspace</groupId>
+      <artifactId>Playground</artifactId>
+      <version>1.0.0</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
