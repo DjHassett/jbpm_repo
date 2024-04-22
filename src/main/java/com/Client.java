@@ -13,8 +13,6 @@ public class Client implements java.io.Serializable {
 	private java.lang.String surname;
 	private java.lang.Boolean consented;
 
-	private java.lang.String initials;
-
 	public Client() {
 	}
 
@@ -57,22 +55,12 @@ public class Client implements java.io.Serializable {
 		this.consented = consented;
 	}
 
-	public java.lang.String getInitials() {
-		return this.initials;
-	}
-
-	public void setInitials(java.lang.String initials) {
-		this.initials = initials;
-	}
-
 	public Client(java.lang.Integer age, java.lang.String firstName,
-			java.lang.String surname, java.lang.Boolean consented,
-			java.lang.String initials) {
+			java.lang.String surname, java.lang.Boolean consented) {
 		this.age = age;
 		this.firstName = firstName;
 		this.surname = surname;
 		this.consented = consented;
-		this.initials = initials;
 	}
 
 }
